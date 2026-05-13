@@ -1,5 +1,7 @@
 # Claude GDS Skills
 
+**inspired by claud [terryso's bmad skills](https://github.com/terryso/claude-bmad-skills)**
+
 Claude Code Skills collection for GDS (Godot Development Sprint) methodology.
 
 [中文文档](README_CN.md)
