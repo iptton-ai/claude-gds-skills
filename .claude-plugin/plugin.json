@@ -1,7 +1,7 @@
 {
   "name": "gds-skills",
-  "version": "1.0.0",
-  "description": "GDS (Godot Development Sprint) Skills collection for Claude Code",
+  "version": "1.0.1",
+  "description": "GDS (Game Dev Studio moduel in BMAD) Skills collection for Claude Code",
   "skills": ["./skills/"],
-  "keywords": ["gds", "godot", "gamedev", "pipeline"]
+  "keywords": ["gds", "gamedev", "bmad", "pipeline"]
 }
