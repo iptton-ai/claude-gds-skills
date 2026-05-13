@@ -1,20 +1,20 @@
 {
   "name": "gds-skills",
   "owner": {
-    "name": "yltech"
+    "name": "iptton"
   },
   "license": "MIT",
   "homepage": "https://github.com/iptton-ai/claude-gds-skills",
   "repository": "https://github.com/iptton-ai/claude-gds-skills",
-  "keywords": ["gds", "godot", "gamedev", "pipeline", "skills"],
+  "keywords": ["gds", "gamedev", "pipeline", "skills"],
   "plugins": [
     {
       "name": "gds-skills",
       "source": "./",
-      "description": "GDS (Godot Development Sprint) methodology skills - configurable pipeline for Godot game story delivery",
+      "description": "GDS (Game Dev Studio in BMAD) methodology skills - configurable pipeline for Godot game story delivery",
       "version": "1.0.0",
       "author": {
-        "name": "yltech"
+        "name": "iptton"
       },
       "skills": [
         "./skills/gds-story-pipeline",
