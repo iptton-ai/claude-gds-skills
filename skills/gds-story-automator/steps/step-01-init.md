@@ -105,24 +105,6 @@ Everything is logged in a state document for full resumability.
 
 Create `{state_folder}` if it doesn't exist.
 
-### 6. Create Marker File
-
-Write a JSON marker file to `{marker_file}`:
-
-```json
-{
-  "startedAt": "{timestamp}",
-  "heartbeat": "{timestamp}",
-  "status": "initializing"
-}
-```
-
-This marker:
-- Signals that the story automator is active
-- Is checked by the Stop hook to block premature interruption
-- Contains a heartbeat timestamp — if older than 30 minutes, the hook allows stop (assumes orchestrator crashed)
-- Is removed in step-04-wrapup when orchestration completes
-
 ---
 
 ## Then

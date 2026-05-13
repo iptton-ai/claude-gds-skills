@@ -26,6 +26,28 @@ Initialize tracking variables:
 
 ---
 
+## Create Marker File
+
+Write a JSON marker file to `{marker_file}`:
+
+```json
+{
+  "startedAt": "{timestamp}",
+  "heartbeat": "{timestamp}",
+  "status": "executing"
+}
+```
+
+This marker:
+- Signals that the story automator is in autonomous execution mode
+- Is checked by the Stop hook to block premature interruption
+- Contains a heartbeat timestamp — if older than 30 minutes, the hook allows stop (assumes orchestrator crashed)
+- Is removed in step-04-wrapup when orchestration completes
+
+**Note:** The marker is created here (not in step-01-init) so that preflight questions in step-02 are not blocked by the Stop hook.
+
+---
+
 ## Story Loop
 
 **FOR EACH story in range:**

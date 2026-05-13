@@ -1,6 +1,6 @@
 {
   "name": "gds-skills",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "GDS (Game Dev Studio moduel in BMAD) Skills collection for Claude Code",
   "skills": ["./skills/"],
   "keywords": ["gds", "gamedev", "bmad", "pipeline"]
