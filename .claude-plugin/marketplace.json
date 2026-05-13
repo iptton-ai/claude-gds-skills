@@ -3,17 +3,24 @@
   "owner": {
     "name": "yltech"
   },
-  "metadata": {
-    "description": "GDS (Godot Development Sprint) Skills collection for Claude Code"
-  },
+  "license": "MIT",
+  "homepage": "https://github.com/iptton-ai/claude-gds-skills",
+  "repository": "https://github.com/iptton-ai/claude-gds-skills",
+  "keywords": ["gds", "godot", "gamedev", "pipeline", "skills"],
   "plugins": [
     {
       "name": "gds-skills",
       "source": "./",
-      "description": "GDS methodology skills - configurable pipeline for Godot game story delivery",
-      "homepage": "https://github.com/yltech/claude-gds-skills",
-      "license": "MIT",
-      "keywords": ["gds", "godot", "gamedev", "pipeline", "skills"]
+      "description": "GDS (Godot Development Sprint) methodology skills - configurable pipeline for Godot game story delivery",
+      "version": "1.0.0",
+      "author": {
+        "name": "yltech"
+      },
+      "skills": [
+        "./skills/gds-story-pipeline",
+        "./skills/gds-story-pipeline-worktree",
+        "./skills/gds-epic-pipeline-worktree"
+      ]
     }
   ]
 }

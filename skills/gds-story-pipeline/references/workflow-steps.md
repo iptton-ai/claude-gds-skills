@@ -10,14 +10,14 @@ Each step runs with "yolo" mode for auto-approval.
 - Description: Creates story file with context from GDD and level design docs
 - Return: Story ID, Title, Created files
 
-### Step 2: Generate GDD Tests
-- Command: `/gds-testarch-gdd {STORY_ID} yolo`
-- Description: Generate failing game design tests (GDD red phase) - validates Godot scene structure, node hierarchy, physics parameters, and gameplay mechanics against design spec
-- Return: GDD checklist and test files
+### Step 2: Design Tests
+- Command: `/gds-test-design {STORY_ID} yolo`
+- Description: Design test cases for the story - validates Godot scene structure, node hierarchy, physics parameters, and gameplay mechanics against design spec
+- Return: Test design checklist and test specification
 
 ### Step 3: Development
 - Command: `/gds-dev-story {STORY_ID} yolo`
-- Description: Implement story in Godot - create/modify scenes, scripts (GDScript), assets, and configurations (TDD green phase)
+- Description: Implement story in Godot - create/modify scenes, scripts (GDScript), assets, and configurations
 - Return: Modified files, Changes summary
 
 ### Step 4: Code Review
@@ -25,10 +25,10 @@ Each step runs with "yolo" mode for auto-approval.
 - Description: Adversarial code review for Godot-specific issues - scene structure, GDScript quality, performance concerns, signal wiring
 - Return: Conclusion (pass/needs-fix), Issues by severity
 
-### Step 5: Trace Test Coverage
-- Command: `/gds-testarch-trace {STORY_ID} yolo`
-- Description: Generate traceability matrix and quality gate decision - maps story requirements to Godot scenes, scripts, and test coverage
-- Return: Coverage percentage, Gate decision
+### Step 5: Playtest Plan
+- Command: `/gds-playtest-plan {STORY_ID} yolo`
+- Description: Generate playtest plan and verify test coverage - maps story requirements to Godot scenes, scripts, and gameplay validation
+- Return: Coverage assessment, Quality gate decision
 
 ## Post-Pipeline
 
