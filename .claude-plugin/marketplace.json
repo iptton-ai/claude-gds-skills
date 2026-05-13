@@ -1,0 +1,19 @@
+{
+  "name": "gds-skills",
+  "owner": {
+    "name": "yltech"
+  },
+  "metadata": {
+    "description": "GDS (Godot Development Sprint) Skills collection for Claude Code"
+  },
+  "plugins": [
+    {
+      "name": "gds-skills",
+      "source": "./",
+      "description": "GDS methodology skills - configurable pipeline for Godot game story delivery",
+      "homepage": "https://github.com/yltech/claude-gds-skills",
+      "license": "MIT",
+      "keywords": ["gds", "godot", "gamedev", "pipeline", "skills"]
+    }
+  ]
+}

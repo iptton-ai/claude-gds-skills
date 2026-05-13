@@ -1,0 +1,7 @@
+{
+  "name": "gds-skills",
+  "version": "1.0.0",
+  "description": "GDS (Godot Development Sprint) Skills collection for Claude Code",
+  "skills": ["./skills/"],
+  "keywords": ["gds", "godot", "gamedev", "pipeline"]
+}
