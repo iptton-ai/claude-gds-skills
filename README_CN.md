@@ -2,6 +2,8 @@
 
 GDS (Godot Development Sprint) 方法论的 Claude Code Skills 集合。
 
+**致敬 [Nick 的 bmad skill](https://github.com/terryso/claude-bmad-skills)**
+
 [English](README.md)
 
 ## 安装
