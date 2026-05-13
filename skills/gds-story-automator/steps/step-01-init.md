@@ -49,7 +49,7 @@ Read the current `{project-root}/.claude/settings.json`, merge the following Sto
         "hooks": [
           {
             "type": "command",
-            "command": "test -f {project-root}/.claude/.story-automator-active && echo '{\"decision\":\"block\",\"reason\":\"Story automator is in progress. Use /clear to override if needed.\"}' || echo '{\"decision\":\"allow\"}'",
+            "command": "test -f {project-root}/.claude/.story-automator-active && echo '{\"decision\":\"block\",\"reason\":\"Story automator is in progress. Use /clear to override if needed.\"}' || echo '{\"decision\":\"approve\"}'",
             "timeout": 5
           }
         ]
